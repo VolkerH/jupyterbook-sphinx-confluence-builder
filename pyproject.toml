@@ -1,0 +1,11 @@
+[project]
+name = "jupyterbook-sphinx-confluence-builder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter-book>=1.0.4.post1",
+    "matplotlib>=3.10.3",
+    "sphinxcontrib-confluencebuilder>=2.13.0",
+]
